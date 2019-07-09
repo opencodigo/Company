@@ -1,0 +1,87 @@
+/* *{
+    padding: 0px;
+} */
+
+/* menu styles */
+.octopbar{
+    color: white;
+    margin: 25px 10px;
+}
+.octopbarli{
+    margin-right: 20px;
+}
+
+.ocmenu{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* before slider */
+
+.ocbox{
+    display: inline-block;
+    box-sizing: border-box;
+    /* margin-bottom: .5rem !important; */
+    height: 160px;
+    width: 160px;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 100%;
+    line-height: 160px;
+    transition: 1s;
+    cursor: pointer;
+}
+.ocbox:hover{
+    transform: scale(1.1);
+}
+
+.text-blue{
+    color: #2046f2;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+/* services */
+
+.animated-text{
+    color: rgba(0, 0, 0, 0.1);
+}
+.animated-text{
+    position: relative;
+    top: 50px;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+    line-height: 150px;
+    font-weight: 900;
+    text-transform: uppercase;
+    /* display: inline-table; */
+    box-sizing: border-box;
+
+}
+
+.core-fearture{
+    background-color: #f5f5f5;
+}
+/* .occards{
+    position: absolute;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+} */
+
+.occard:hover{
+    transform: scale(1.1);
+}
+
+.occard{
+    transition: 1s;
+    cursor: pointer;
+    
+}
+.card{
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2) !important;
+}
